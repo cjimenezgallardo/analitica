@@ -1,7 +1,4 @@
-Package: Analitica
-Title: Exploratory Data Analysis, Group Comparison Tools, and other procedures
-Version: 1.8.5
-Authors@R: person("Carlos", "Jiménez-Gallardo", email = "carlos.jimenez@ufrontera.cl", role = c("aut", "cre"))
+Package: Analitica for R, Title: Exploratory Data Analysis, Group Comparison Tools, and other procedures
 Description: Provides a comprehensive set of tools for descriptive statistics,
     graphical data exploration, outlier detection, homoscedasticity testing, and
     multiple comparison procedures. Includes manual implementations of Levene's test,
@@ -11,24 +8,3 @@ Description: Provides a comprehensive set of tools for descriptive statistics,
     and the Jarque-Bera test with Glinskiy's (2024) correction. Designed for use in
     teaching, applied statistical analysis, and reproducible research.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.3.2
-Depends: R (>= 4.4)
-Imports:
-    ggplot2,
-    dplyr,
-    tidyr,
-    ggridges,
-    patchwork,
-    moments,
-    magrittr,
-    rlang,
-    tidyselect,
-    multcompView,
-Suggests:
-    knitr,
-    rmarkdown,
-    testthat (>= 3.0.0)
-VignetteBuilder: knitr
-Config/testthat/edition: 3
